@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { config } from '@school/config';
+import { config } from '../config';
 import {
   AuthResponse,
   LoginRequest,

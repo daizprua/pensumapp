@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@school/config": "workspace:*",
     "next": "^14.0.0",
     "next-i18next": "^15.0.0",
     "react": "^18.2.0",
