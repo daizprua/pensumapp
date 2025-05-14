@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "pnpm -r dev",
-    "build": "pnpm --filter @school/config build && pnpm --filter @school/web build",
+    "build": "pnpm --filter @school/web build",
     "start": "pnpm -r start",
     "dev:api": "pnpm --filter @school/api dev",
     "dev:web": "pnpm --filter @school/web dev",
@@ -14,8 +14,7 @@
     "start:web": "pnpm --filter @school/web start"
   },
   "workspaces": [
-    "apps/*",
-    "packages/*"
+    "apps/*"
   ],
   "devDependencies": {
     "vercel": "^41.7.6"

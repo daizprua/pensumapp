@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
-import { LANGUAGES, Language } from '@school/config';
+import { LANGUAGES, Language } from '../config';
 
 export interface LocalizedRequest extends Request {
   locale: Language;

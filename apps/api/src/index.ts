@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import { config } from '@school/config';
+import { config } from './config';
 import { authRouter } from './routes/auth';
 import { studentsRouter } from './routes/students';
 import { teachersRouter } from './routes/teachers';

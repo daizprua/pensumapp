@@ -1,8 +1,3 @@
-import dotenv from 'dotenv';
-
-// Load environment variables
-dotenv.config();
-
 export const config = {
   api: {
     port: process.env.API_PORT || 4000,

@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
-import { config } from '@school/config';
+import { config } from '../config';
 import pool from '../db';
 import { LoginRequest, RegisterRequest } from '../types';
 

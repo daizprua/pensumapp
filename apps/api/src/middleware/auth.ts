@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
-import { config } from '@school/config';
+import { config } from '../config';
 import { User } from '../types';
 
 export interface AuthRequest extends Request {

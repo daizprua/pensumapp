@@ -1,4 +1,4 @@
-import { Role, Language } from '@school/config';
+import { Role, Language } from '../config';
 
 export interface User {
   id: number;
