@@ -1,1 +1,13 @@
- 
+{
+  "version": 2,
+  "framework": null,
+  "outputDirectory": ".next",
+  "buildCommand": "cd apps/web && pnpm install --no-frozen-lockfile && pnpm build",
+  "ignoreCommand": "git diff HEAD^ HEAD --quiet ./apps/web/",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/apps/web/$1"
+    }
+  ]
+} 
