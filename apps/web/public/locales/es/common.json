@@ -1,0 +1,35 @@
+{
+  "auth": {
+    "login": "Iniciar sesión",
+    "register": "Registrarse",
+    "logout": "Cerrar sesión",
+    "username": "Usuario",
+    "password": "Contraseña",
+    "email": "Correo electrónico",
+    "role": "Rol"
+  },
+  "navigation": {
+    "dashboard": "Panel principal",
+    "students": "Estudiantes",
+    "teachers": "Profesores",
+    "courses": "Cursos",
+    "grades": "Calificaciones"
+  },
+  "roles": {
+    "admin": "Administrador",
+    "teacher": "Profesor",
+    "student": "Estudiante",
+    "parent": "Padre/Madre"
+  },
+  "common": {
+    "welcome": "Bienvenido",
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "view": "Ver",
+    "search": "Buscar"
+  }
+} 

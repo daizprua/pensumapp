@@ -1,0 +1,35 @@
+{
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "username": "Username",
+    "password": "Password",
+    "email": "Email",
+    "role": "Role"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "students": "Students",
+    "teachers": "Teachers",
+    "courses": "Courses",
+    "grades": "Grades"
+  },
+  "roles": {
+    "admin": "Administrator",
+    "teacher": "Teacher",
+    "student": "Student",
+    "parent": "Parent"
+  },
+  "common": {
+    "welcome": "Welcome",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "search": "Search"
+  }
+} 

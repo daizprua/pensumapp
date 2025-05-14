@@ -1,0 +1,20 @@
+{
+  "name": "school-management-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -r dev",
+    "build": "pnpm -r build",
+    "start": "pnpm -r start",
+    "dev:api": "pnpm --filter @school/api dev",
+    "dev:web": "pnpm --filter @school/web dev",
+    "build:api": "pnpm --filter @school/api build",
+    "build:web": "pnpm --filter @school/web build",
+    "start:api": "pnpm --filter @school/api start",
+    "start:web": "pnpm --filter @school/web start"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+} 
